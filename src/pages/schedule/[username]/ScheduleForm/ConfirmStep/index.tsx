@@ -2,7 +2,7 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { Button, Text, TextArea, TextInput } from '@ignite-ui/react'
 import { CalendarBlank, Clock } from 'phosphor-react'
 import { useForm } from 'react-hook-form'
-import { promise, z } from 'zod'
+import { z } from 'zod'
 import { ConfirmForm, FormActions, FormError, FormHeader } from './styles'
 
 const confirmFormSchema = z.object({
